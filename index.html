@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Procedural Sound World</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #000; }
+    canvas { display: block; }
+    #info {
+      position: fixed; top: 10px; left: 10px; color: white; font-family: monospace;
+      background: rgba(0,0,0,0.4); padding: 5px 10px; border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">WASD + Mouse to move/look | Circles emit melodies within 10 blocks</div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.min.js"></script>
+  <script src="noise.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
